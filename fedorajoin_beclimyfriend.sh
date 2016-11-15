@@ -53,7 +53,7 @@ yum install -y authconfig-gtk
 
 system-config-authentication
 
-sytemctl enable sssd.service
+systemctl enable sssd.service
 
 systemctl restart sssd.service
 
