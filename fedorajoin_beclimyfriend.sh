@@ -2,6 +2,7 @@
 #Script para unir equipo Fedora a dominio Active Directory de Windows
 #Provado en Fedora 24/25 Beta
 #Hecho por beclimyfriend.blogspot.com !! Si te ha servido visita para más!
+#Joan Chacón
 
 echo "¿Quieres instalar los paquetes necesarios?(deberían estar por defecto Y/N)"
 read ans
