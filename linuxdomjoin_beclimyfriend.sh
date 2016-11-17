@@ -132,7 +132,7 @@ then
 	search=$(sed -n '/#nameserver 127.0.1.1/p' /etc/resolv.conf)
 
 	#If not, we comment it
-	if [ "$search" != "#nameserver 127.0.1.1"
+	if [ "$search" != "#nameserver 127.0.1.1" ]
 	then
 		echo "Commenting server 127.0.1.1 en /etc/resolv.conf"
 		sed -i -e 's/nameserver 127.0.1.1/#nameserver 127.0.1.1/g' /etc/resolv.conf
