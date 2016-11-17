@@ -246,7 +246,9 @@ then
 
 	if [ "$distro" == "E" ] || [ "$distro" == "e" ]
 	then
-		echo "Edit elementary"
+		echo "[SeatDefaults]" >> /etc/lightdm/lightdm.conf.d/domain-custom.conf
+		echo "greeter-show-manual-login=true" >> /etc/lightdm/lightdm.conf.d/domain-custom.conf
+		echo "allow-guest=false" >> /etc/lightdm/lightdm.conf.d/domain-custom.conf
 	else
 
 		#Creates lightdm config for graphical login
