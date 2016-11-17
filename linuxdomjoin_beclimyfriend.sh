@@ -290,7 +290,7 @@ then
 
 		fi
 	fi
-
+fi
 #clear
 echo "It's necessary to reboot the system, then login as DOMAIN\user"
 echo "Reboot now(Y/N)?"
